@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Andrea Matteo Giunta">
+<meta name="dcterms.date" content="2026-03-16">
+
+<title>What Drives Success in the Shopify App Store?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="report_files/libs/clipboard/clipboard.min.js"></script>
+<script src="report_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="report_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="report_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="report_files/libs/quarto-html/popper.min.js"></script>
+<script src="report_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="report_files/libs/quarto-html/anchor.min.js"></script>
+<link href="report_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="report_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="report_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#business-problem" id="toc-business-problem" class="nav-link" data-scroll-target="#business-problem"><span class="header-section-number">1.1</span> Business Problem</a></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions"><span class="header-section-number">1.2</span> Research Questions</a></li>
+  </ul></li>
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description"><span class="header-section-number">2</span> Data Description</a></li>
+  <li><a href="#marketplace-overview" id="toc-marketplace-overview" class="nav-link" data-scroll-target="#marketplace-overview"><span class="header-section-number">3</span> Marketplace Overview</a>
+  <ul class="collapse">
+  <li><a href="#distribution-of-ratings" id="toc-distribution-of-ratings" class="nav-link" data-scroll-target="#distribution-of-ratings"><span class="header-section-number">3.1</span> Distribution of ratings</a></li>
+  <li><a href="#category-concentration" id="toc-category-concentration" class="nav-link" data-scroll-target="#category-concentration"><span class="header-section-number">3.2</span> Category concentration</a></li>
+  <li><a href="#distribution-of-prices" id="toc-distribution-of-prices" class="nav-link" data-scroll-target="#distribution-of-prices"><span class="header-section-number">3.3</span> Distribution of prices</a></li>
+  </ul></li>
+  <li><a href="#pricing-strategy-analysis" id="toc-pricing-strategy-analysis" class="nav-link" data-scroll-target="#pricing-strategy-analysis"><span class="header-section-number">4</span> Pricing Strategy Analysis</a></li>
+  <li><a href="#determinants-of-app-success" id="toc-determinants-of-app-success" class="nav-link" data-scroll-target="#determinants-of-app-success"><span class="header-section-number">5</span> Determinants of App Success</a>
+  <ul class="collapse">
+  <li><a href="#model-specification" id="toc-model-specification" class="nav-link" data-scroll-target="#model-specification"><span class="header-section-number">5.1</span> Model Specification</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">5.2</span> Results</a></li>
+  </ul></li>
+  <li><a href="#managerial-implications" id="toc-managerial-implications" class="nav-link" data-scroll-target="#managerial-implications"><span class="header-section-number">6</span> Managerial Implications</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">7</span> Conclusion</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">What Drives Success in the Shopify App Store?</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrea Matteo Giunta </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 16, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="business-problem" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="business-problem"><span class="header-section-number">1.1</span> Business Problem</h2>
+<p>The Shopify App Store is a competitive SaaS marketplace where thousands of applications compete for visibility, adoption, and user ratings.</p>
+<p>This project aims to identify the key drivers of app success, focusing on pricing strategy, competition intensity, feature richness, and developer engagement.</p>
+</section>
+<section id="research-questions" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="research-questions"><span class="header-section-number">1.2</span> Research Questions</h2>
+<p>To get to the core of the business problem, I break it down into the following four research questions:</p>
+<ul>
+<li>Does pricing strategy influence ratings and review count?</li>
+<li>Do freemium apps outperform paid-only apps?</li>
+<li>Does developer responsiveness affect user satisfaction?</li>
+<li>How does category competition influence performance?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="data-description" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Data Description</h1>
+<p>The <a href="https://www.kaggle.com/datasets/usernam3/shopify-app-store">Shopify App Store</a> dataset contains information about apps and reviews derived from scraping the Shopify App Store. Scraped data are automatically stored without any further control. Therefore, my first step was to clean data and perform feature engineering.</p>
+<p>In MySQL I obtained a cleaned final database by exploring every dataset and ultimately joining the app data with the corresponding pricing plans, key benefits, and reviews data. I found the average pricing and rating per app in the original app dataset to be inconsistent with the more detailed pricing plans and reviews table. So I recomputed the averages based on the more accurate tables before merging.</p>
+<p>A major challenge was presented by the category table: depite having normalized the text, most category titles were unique in the choice of words providing no additional information. The solution was to create macrocategories but, due to the large number of data, doing so in SQL was not feasable. So I performed a <strong>Text Clustering</strong> using <strong>NLP</strong> techniques in Python to obtained a new data set named <code>clustered_categories</code>.</p>
+<p>Joining every table to the app data containing demographic information, I obtained an aggraged dataset with:</p>
+<ul>
+<li>Number of apps: 11,951</li>
+<li>Number of categories: 95</li>
+<li>Number of developers: 7,697</li>
+<li>Key variables constructed:
+<ul>
+<li>avgerage reply time</li>
+<li>response rate</li>
+<li>days since last update</li>
+<li>category competition</li>
+<li>number of benefits</li>
+<li>success score (weighted ratings)</li>
+<li>has free trial</li>
+<li>has free plan</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="marketplace-overview" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Marketplace Overview</h1>
+<section id="distribution-of-ratings" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="distribution-of-ratings"><span class="header-section-number">3.1</span> Distribution of ratings</h2>
+<p>Figure 1 shows the number of reviews and the average rating per app. Looking at the left side panel, <strong>network effect</strong> emerges as reviews are concentrated in an handful of apps. In other words, more popular apps attrack more users making those app even more popular. The right side panel shows that ratings are heavily skewed to the right.</p>
+<div id="fig-histograms" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-histograms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-histograms" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-histograms-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-histograms-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-histograms-1.png" class="img-fluid figure-img" data-ref-parent="fig-histograms" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-histograms-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Distribution of Number of Reviews
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-histograms" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-histograms-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-histograms-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-histograms-2.png" class="img-fluid figure-img" data-ref-parent="fig-histograms" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-histograms-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Distribution of Average Ratings
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-histograms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Comparison of Distribution of Number of Reviews and Distribution Average Ratings
+</figcaption>
+</figure>
+</div>
+<p>It’s also worth noticing, as shown in Figure 2, that more popular apps have also a higher average rating.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-bar" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-bar-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Number of ratings by rating interval
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Intrestly, developers’ response rate and replying time are not correlated with the average rating of their apps. Instead, <strong>frequent software updates</strong> are essential to keep good rating as shown in Figure 3.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-box" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-box-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Update Frequency Across Ratings
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="category-concentration" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="category-concentration"><span class="header-section-number">3.2</span> Category concentration</h2>
+<p>Market competition is simply the number of apps in a given category. As the following histogram shows, the number of competitors per category in not uniformally distributed. The reason is not only that some markets are more appealing than others attracting more developers, but also that we synthetically derived the macrocategories from the NLP analysis. Therefore every conclusion on market competition should be taken with caution.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-hist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-hist-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Distribution of Apps per Category
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Starting from this distribution, I create four categories of market concentration:</p>
+<ul>
+<li>low competition</li>
+<li>medium competition</li>
+<li>high competition</li>
+<li>intense competition</li>
+</ul>
+<p>A remarkable finding, presented in the following figure, is that the mean success score for apps in intense competitive categories is the lowest.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-catsuc" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-catsuc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-catsuc-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-catsuc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Average Success Score by Competition Level
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>It’s worth noticing that there are only two macrocategory populating the intense market competition group and therefore the result may reflect category-specific characteristics rather than competition-specific ones.</p>
+</section>
+<section id="distribution-of-prices" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="distribution-of-prices"><span class="header-section-number">3.3</span> Distribution of prices</h2>
+<p>The distribution of prices reflects the variaity of pricing strategies. While the bulk of the distribution is under the $60 a month threshold, there are outliers heavily influencing the mean of the distribution. Considering free apps, the <strong>meadian app price</strong> is <strong>$10</strong> while the <strong>mean</strong> is <strong>$94.44</strong>. Among subscription apps only, the median price is higher, $19.99, while the mean price is lower at $90.52.</p>
+<p>Among subscription only apps, the median and average monthly prices are positively correlated with the number of plans offered as described int the following table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Number of plans</th>
+<th>Median Price</th>
+<th style="text-align: right;">Average Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>$8</td>
+<td style="text-align: right;">$30</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>$9.99</td>
+<td style="text-align: right;">$62.1</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>$29</td>
+<td style="text-align: right;">$133</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>$30</td>
+<td style="text-align: right;">$92.9</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="pricing-strategy-analysis" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Pricing Strategy Analysis</h1>
+<p>Apps in the marketplace are distributed as it follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Price category</th>
+<th style="text-align: right;">Number of apps</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Free apps</td>
+<td style="text-align: right;">1,974</td>
+</tr>
+<tr class="even">
+<td>One-time apps</td>
+<td style="text-align: right;">78</td>
+</tr>
+<tr class="odd">
+<td>Subscription apps</td>
+<td style="text-align: right;">7,627</td>
+</tr>
+</tbody>
+</table>
+<p>Among Subscription apps, apps with 1 and 4 plans are the most popular pricing options as indicated by the figure below:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-plan-dist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-plan-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-plan-dist-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-plan-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Distribution of Number of Plans
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>It’s also worth noticing that among apps with subscriptions, <strong>46%</strong> offer a free base plan and are thus <strong>freemium</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that freemium apps are a sub category of subscription apps.</p>
+</div>
+</div>
+<p>One-time apps perfomr the worst when comparing average rating acrooss groups followed by free apps, while freemium apps have the highest liking, although the differences are not large. Instead, the gap is much more significant when looking at the success score. Freemium apps perfom the best showing a competitive advantage among the subscription group. On the other hand, free and one-time apps score the least.</p>
+<div id="fig-hist-price" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-hist-price" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-hist-price-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-hist-price-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-hist-price-1.png" class="img-fluid figure-img" data-ref-parent="fig-hist-price" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-hist-price-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Differences in average rating across groups
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-hist-price" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-hist-price-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-hist-price-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-hist-price-2.png" class="img-fluid figure-img" data-ref-parent="fig-hist-price" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-hist-price-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Differences in success score across groups
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Rating and Success Score Across Pricing Category
+</figcaption>
+</figure>
+</div>
+<p>Confronting freemium with subscription apps their pricing strategy results optimal for both developers and clients. By plotting the average and median monthly price by group and rating interval we can have a closer at the pattern. Low rated freemium apps are more expensive than the rest of their competitors. Those are likely apps with a terrible free user experience and that set extremely high prices even to use basic functions. On the other end of the scale, higher rated apps are also more pricy, indicating that the increase in costs is welcomed by customers when offering a solid product. It is also worth noticing that <strong>freemium apps have higher median prices</strong> than the whole suscription category.</p>
+<div id="fig-bar-price" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bar-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-bar-price" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-bar-price-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-bar-price-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-bar-price-1.png" class="img-fluid figure-img" data-ref-parent="fig-bar-price" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-bar-price-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Average Price by Rating Interval and Pricing Strategy
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-bar-price" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-bar-price-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-bar-price-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="report_files/figure-html/fig-bar-price-2.png" class="img-fluid figure-img" data-ref-parent="fig-bar-price" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-bar-price-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Median Price by Rating Interval and Pricing Strategy
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bar-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Pricing by Rating Interval Across Pricing Group
+</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="determinants-of-app-success" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Determinants of App Success</h1>
+<p>I performed a <strong>regression analysis</strong> on three key variables:</p>
+<ul>
+<li>Ratings</li>
+<li>Popularity (number of ratings)</li>
+<li>Success score</li>
+</ul>
+<p>to determine the drivers of app success in the Shopify App Store. In addition, to draw insights on drivers importance, I relied on <strong>machine learning</strong>, specifically onm the random forest classification method.</p>
+<section id="model-specification" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="model-specification"><span class="header-section-number">5.1</span> Model Specification</h2>
+<p>Regarding the linear regression models, I first fitted three simple OLS models and chose the best one usiung the AIC/BIC parameters. Then I used that model specification and set the macrocategories as fixed effects. I tested the model using the Wald test which confirmed the fixed effects choice.</p>
+<p>To have a broad picture, I designed the first set of fixed effects models with the following variables:</p>
+<ul>
+<li>App group:
+<ul>
+<li>Free</li>
+<li>One-Time</li>
+<li>Subscription</li>
+</ul></li>
+<li>Days since last update</li>
+<li>Response rate</li>
+<li>Has multiple plans (Yes or No)</li>
+<li>Competition category</li>
+<li>Number of features</li>
+</ul>
+<p>Then to see how the pricing strategy influence ratings and popularity and whether freemium apps outperform paid-only I focused specifically on the subscription apps subset fitting a linear regression model with the following variables:</p>
+<ul>
+<li>Monthly price</li>
+<li>Number of plans</li>
+<li>Has free trial (Yes or No)</li>
+<li>Has free plan (Yes or No)</li>
+<li>Days since last update</li>
+<li>Response rate</li>
+<li>Competition category</li>
+<li>Number of features</li>
+</ul>
+</section>
+<section id="results" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="results"><span class="header-section-number">5.2</span> Results</h2>
+<p>The following tables shows the results of the linear regression models:</p>
+<div class="cell">
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script src="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.js"></script>
+
+    <script>
+      // Create table-specific functions using external factory
+      const tableFns_6qildsdml2cng03ghkcx = TinyTable.createTableFunctions("tinytable_6qildsdml2cng03ghkcx");
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '13', j: 2 }, { i: '13', j: 3 }, { i: '13', j: 4 } ], css_id: 'tinytable_css_5a9t3xduzb0a7ojbuy4z',}, 
+          { positions: [ { i: '8', j: 2 }, { i: '8', j: 3 }, { i: '8', j: 4 } ], css_id: 'tinytable_css_0kn6cjarak0vi4e534re',}, 
+          { positions: [ { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 2 }, { i: '10', j: 2 }, { i: '11', j: 2 }, { i: '12', j: 2 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 }, { i: '7', j: 3 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '11', j: 3 }, { i: '12', j: 3 }, { i: '1', j: 4 }, { i: '2', j: 4 }, { i: '3', j: 4 }, { i: '4', j: 4 }, { i: '5', j: 4 }, { i: '6', j: 4 }, { i: '7', j: 4 }, { i: '9', j: 4 }, { i: '10', j: 4 }, { i: '11', j: 4 }, { i: '12', j: 4 } ], css_id: 'tinytable_css_rgodp04szf1llgychppn',}, 
+          { positions: [ { i: '0', j: 2 }, { i: '0', j: 3 }, { i: '0', j: 4 } ], css_id: 'tinytable_css_zht0hnbe5nca78nep8gn',}, 
+          { positions: [ { i: '13', j: 1 } ], css_id: 'tinytable_css_sw7ero69lvayxla54r3k',}, 
+          { positions: [ { i: '8', j: 1 } ], css_id: 'tinytable_css_rhtq7xy9enh4jmgm463g',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '11', j: 1 }, { i: '12', j: 1 } ], css_id: 'tinytable_css_p7eqy4putbcr34d2x0vj',}, 
+          { positions: [ { i: '0', j: 1 } ], css_id: 'tinytable_css_25f0q7tgwjvimruw9e14',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  tableFns_6qildsdml2cng03ghkcx.styleCell(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.css">
+    <style>
+    /* tinytable css entries after */
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_5a9t3xduzb0a7ojbuy4z, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_5a9t3xduzb0a7ojbuy4z {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_0kn6cjarak0vi4e534re, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_0kn6cjarak0vi4e534re {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_rgodp04szf1llgychppn, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_rgodp04szf1llgychppn { text-align: center }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_zht0hnbe5nca78nep8gn, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_zht0hnbe5nca78nep8gn {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_sw7ero69lvayxla54r3k, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_sw7ero69lvayxla54r3k {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_rhtq7xy9enh4jmgm463g, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_rhtq7xy9enh4jmgm463g {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_p7eqy4putbcr34d2x0vj, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_p7eqy4putbcr34d2x0vj { text-align: left }
+    #tinytable_6qildsdml2cng03ghkcx td.tinytable_css_25f0q7tgwjvimruw9e14, #tinytable_6qildsdml2cng03ghkcx th.tinytable_css_25f0q7tgwjvimruw9e14 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    </style>
+    <div class="container">
+      <table class="tinytable" id="tinytable_6qildsdml2cng03ghkcx" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        
+        <thead>
+              <tr>
+                <th scope="col" data-row="0" data-col="1"> </th>
+                <th scope="col" data-row="0" data-col="2">Ratings</th>
+                <th scope="col" data-row="0" data-col="3">Popularity</th>
+                <th scope="col" data-row="0" data-col="4">Success Score</th>
+              </tr>
+        </thead>
+        <tfoot><tr><td colspan="4">+ p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001</td></tr></tfoot>
+        <tbody>
+                <tr>
+                  <td data-row="1" data-col="1">Response Rate</td>
+                  <td data-row="1" data-col="2">-0.003***</td>
+                  <td data-row="1" data-col="3">-0.002**</td>
+                  <td data-row="1" data-col="4">-0.012***</td>
+                </tr>
+                <tr>
+                  <td data-row="2" data-col="1"></td>
+                  <td data-row="2" data-col="2">(0.000)</td>
+                  <td data-row="2" data-col="3">(0.001)</td>
+                  <td data-row="2" data-col="4">(0.003)</td>
+                </tr>
+                <tr>
+                  <td data-row="3" data-col="1">Number of Features</td>
+                  <td data-row="3" data-col="2">0.146***</td>
+                  <td data-row="3" data-col="3">0.358***</td>
+                  <td data-row="3" data-col="4">1.951***</td>
+                </tr>
+                <tr>
+                  <td data-row="4" data-col="1"></td>
+                  <td data-row="4" data-col="2">(0.012)</td>
+                  <td data-row="4" data-col="3">(0.023)</td>
+                  <td data-row="4" data-col="4">(0.113)</td>
+                </tr>
+                <tr>
+                  <td data-row="5" data-col="1">Days Since Last Update</td>
+                  <td data-row="5" data-col="2">-0.001***</td>
+                  <td data-row="5" data-col="3">-0.004***</td>
+                  <td data-row="5" data-col="4">-0.020***</td>
+                </tr>
+                <tr>
+                  <td data-row="6" data-col="1"></td>
+                  <td data-row="6" data-col="2">(0.000)</td>
+                  <td data-row="6" data-col="3">(0.000)</td>
+                  <td data-row="6" data-col="4">(0.001)</td>
+                </tr>
+                <tr>
+                  <td data-row="7" data-col="1">Multiple Plans</td>
+                  <td data-row="7" data-col="2">0.147***</td>
+                  <td data-row="7" data-col="3">0.522***</td>
+                  <td data-row="7" data-col="4">2.731***</td>
+                </tr>
+                <tr>
+                  <td data-row="8" data-col="1"></td>
+                  <td data-row="8" data-col="2">(0.026)</td>
+                  <td data-row="8" data-col="3">(0.053)</td>
+                  <td data-row="8" data-col="4">(0.255)</td>
+                </tr>
+                <tr>
+                  <td data-row="9" data-col="1">Num.Obs.</td>
+                  <td data-row="9" data-col="2">6648</td>
+                  <td data-row="9" data-col="3">6648</td>
+                  <td data-row="9" data-col="4">6648</td>
+                </tr>
+                <tr>
+                  <td data-row="10" data-col="1">R2</td>
+                  <td data-row="10" data-col="2">0.118</td>
+                  <td data-row="10" data-col="3">0.231</td>
+                  <td data-row="10" data-col="4">0.253</td>
+                </tr>
+                <tr>
+                  <td data-row="11" data-col="1">R2 Adj.</td>
+                  <td data-row="11" data-col="2">0.109</td>
+                  <td data-row="11" data-col="3">0.223</td>
+                  <td data-row="11" data-col="4">0.245</td>
+                </tr>
+                <tr>
+                  <td data-row="12" data-col="1">R2 Within</td>
+                  <td data-row="12" data-col="2">0.087</td>
+                  <td data-row="12" data-col="3">0.195</td>
+                  <td data-row="12" data-col="4">0.216</td>
+                </tr>
+                <tr>
+                  <td data-row="13" data-col="1">R2 Within Adj.</td>
+                  <td data-row="13" data-col="2">0.086</td>
+                  <td data-row="13" data-col="3">0.194</td>
+                  <td data-row="13" data-col="4">0.215</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+<p>Subscription apps performs better than free and one-time payment apps on every key metric. Similarly, frequently updating the software is associate with higher ratings and increased popularity. More specifically, 8 months without updates could lead to a decrese of 0.25 point in the app’s average rating. Offering a multiple plans also appreciated, as well as the number of features. Respose rate is, on the other hand, negatively associated with the key metrics. This parameters should be taken with caution since most developers have replied only to negative reviews in the dataset. Lastly, there is no statistically relevant diffrence across competition categories.</p>
+<p>Results for the subscription subsets are presented in the following Table:</p>
+<div class="cell">
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script src="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.js"></script>
+
+    <script>
+      // Create table-specific functions using external factory
+      const tableFns_z0xqyz9s6jf4kiw7qjes = TinyTable.createTableFunctions("tinytable_z0xqyz9s6jf4kiw7qjes");
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '17', j: 2 }, { i: '17', j: 3 }, { i: '17', j: 4 } ], css_id: 'tinytable_css_ivrruo9jw2ixo8uaihay',}, 
+          { positions: [ { i: '12', j: 2 }, { i: '12', j: 3 }, { i: '12', j: 4 } ], css_id: 'tinytable_css_5sggcoopbcti0ehojbl2',}, 
+          { positions: [ { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '8', j: 2 }, { i: '9', j: 2 }, { i: '10', j: 2 }, { i: '11', j: 2 }, { i: '13', j: 2 }, { i: '14', j: 2 }, { i: '15', j: 2 }, { i: '16', j: 2 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 }, { i: '7', j: 3 }, { i: '8', j: 3 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '11', j: 3 }, { i: '13', j: 3 }, { i: '14', j: 3 }, { i: '15', j: 3 }, { i: '16', j: 3 }, { i: '1', j: 4 }, { i: '2', j: 4 }, { i: '3', j: 4 }, { i: '4', j: 4 }, { i: '5', j: 4 }, { i: '6', j: 4 }, { i: '7', j: 4 }, { i: '8', j: 4 }, { i: '9', j: 4 }, { i: '10', j: 4 }, { i: '11', j: 4 }, { i: '13', j: 4 }, { i: '14', j: 4 }, { i: '15', j: 4 }, { i: '16', j: 4 } ], css_id: 'tinytable_css_gdjdya5z9uoetmiby7wl',}, 
+          { positions: [ { i: '0', j: 2 }, { i: '0', j: 3 }, { i: '0', j: 4 } ], css_id: 'tinytable_css_hqz93k4q6q3vuv6qa4ub',}, 
+          { positions: [ { i: '17', j: 1 } ], css_id: 'tinytable_css_k44fs2mb0g08lx7nddvt',}, 
+          { positions: [ { i: '12', j: 1 } ], css_id: 'tinytable_css_mdfurerg9e98syczrpbo',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '7', j: 1 }, { i: '8', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '11', j: 1 }, { i: '13', j: 1 }, { i: '14', j: 1 }, { i: '15', j: 1 }, { i: '16', j: 1 } ], css_id: 'tinytable_css_t6cslt4h94kgqxsyiao2',}, 
+          { positions: [ { i: '0', j: 1 } ], css_id: 'tinytable_css_69s0c0o6f2svjlgzkgqg',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  tableFns_z0xqyz9s6jf4kiw7qjes.styleCell(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.css">
+    <style>
+    /* tinytable css entries after */
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_ivrruo9jw2ixo8uaihay, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_ivrruo9jw2ixo8uaihay {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_5sggcoopbcti0ehojbl2, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_5sggcoopbcti0ehojbl2 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_gdjdya5z9uoetmiby7wl, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_gdjdya5z9uoetmiby7wl { text-align: center }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_hqz93k4q6q3vuv6qa4ub, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_hqz93k4q6q3vuv6qa4ub {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_k44fs2mb0g08lx7nddvt, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_k44fs2mb0g08lx7nddvt {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_mdfurerg9e98syczrpbo, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_mdfurerg9e98syczrpbo {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_t6cslt4h94kgqxsyiao2, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_t6cslt4h94kgqxsyiao2 { text-align: left }
+    #tinytable_z0xqyz9s6jf4kiw7qjes td.tinytable_css_69s0c0o6f2svjlgzkgqg, #tinytable_z0xqyz9s6jf4kiw7qjes th.tinytable_css_69s0c0o6f2svjlgzkgqg {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    </style>
+    <div class="container">
+      <table class="tinytable" id="tinytable_z0xqyz9s6jf4kiw7qjes" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        
+        <thead>
+              <tr>
+                <th scope="col" data-row="0" data-col="1"> </th>
+                <th scope="col" data-row="0" data-col="2">Ratings</th>
+                <th scope="col" data-row="0" data-col="3">Popularity</th>
+                <th scope="col" data-row="0" data-col="4">Success Score</th>
+              </tr>
+        </thead>
+        <tfoot><tr><td colspan="4">+ p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001</td></tr></tfoot>
+        <tbody>
+                <tr>
+                  <td data-row="1" data-col="1">Response Rate</td>
+                  <td data-row="1" data-col="2">-0.003***</td>
+                  <td data-row="1" data-col="3">-0.543*</td>
+                  <td data-row="1" data-col="4">-0.016***</td>
+                </tr>
+                <tr>
+                  <td data-row="2" data-col="1"></td>
+                  <td data-row="2" data-col="2">(0.000)</td>
+                  <td data-row="2" data-col="3">(0.260)</td>
+                  <td data-row="2" data-col="4">(0.003)</td>
+                </tr>
+                <tr>
+                  <td data-row="3" data-col="1">Number of Features</td>
+                  <td data-row="3" data-col="2">0.128***</td>
+                  <td data-row="3" data-col="3">56.773***</td>
+                  <td data-row="3" data-col="4">1.839***</td>
+                </tr>
+                <tr>
+                  <td data-row="4" data-col="1"></td>
+                  <td data-row="4" data-col="2">(0.012)</td>
+                  <td data-row="4" data-col="3">(11.118)</td>
+                  <td data-row="4" data-col="4">(0.127)</td>
+                </tr>
+                <tr>
+                  <td data-row="5" data-col="1">Days Since Last Update</td>
+                  <td data-row="5" data-col="2">-0.001***</td>
+                  <td data-row="5" data-col="3">-0.552***</td>
+                  <td data-row="5" data-col="4">-0.020***</td>
+                </tr>
+                <tr>
+                  <td data-row="6" data-col="1"></td>
+                  <td data-row="6" data-col="2">(0.000)</td>
+                  <td data-row="6" data-col="3">(0.075)</td>
+                  <td data-row="6" data-col="4">(0.001)</td>
+                </tr>
+                <tr>
+                  <td data-row="7" data-col="1">Has Free Trial</td>
+                  <td data-row="7" data-col="2">0.083**</td>
+                  <td data-row="7" data-col="3">67.579**</td>
+                  <td data-row="7" data-col="4">2.464***</td>
+                </tr>
+                <tr>
+                  <td data-row="8" data-col="1"></td>
+                  <td data-row="8" data-col="2">(0.026)</td>
+                  <td data-row="8" data-col="3">(24.262)</td>
+                  <td data-row="8" data-col="4">(0.278)</td>
+                </tr>
+                <tr>
+                  <td data-row="9" data-col="1">Has Free Plan</td>
+                  <td data-row="9" data-col="2">0.062*</td>
+                  <td data-row="9" data-col="3">96.057***</td>
+                  <td data-row="9" data-col="4">1.563***</td>
+                </tr>
+                <tr>
+                  <td data-row="10" data-col="1"></td>
+                  <td data-row="10" data-col="2">(0.025)</td>
+                  <td data-row="10" data-col="3">(23.761)</td>
+                  <td data-row="10" data-col="4">(0.272)</td>
+                </tr>
+                <tr>
+                  <td data-row="11" data-col="1">Monthly Price</td>
+                  <td data-row="11" data-col="2">-0.000</td>
+                  <td data-row="11" data-col="3">-0.019</td>
+                  <td data-row="11" data-col="4">-0.000*</td>
+                </tr>
+                <tr>
+                  <td data-row="12" data-col="1"></td>
+                  <td data-row="12" data-col="2">(0.000)</td>
+                  <td data-row="12" data-col="3">(0.019)</td>
+                  <td data-row="12" data-col="4">(0.000)</td>
+                </tr>
+                <tr>
+                  <td data-row="13" data-col="1">Num.Obs.</td>
+                  <td data-row="13" data-col="2">5496</td>
+                  <td data-row="13" data-col="3">5496</td>
+                  <td data-row="13" data-col="4">5496</td>
+                </tr>
+                <tr>
+                  <td data-row="14" data-col="1">R2</td>
+                  <td data-row="14" data-col="2">0.107</td>
+                  <td data-row="14" data-col="3">0.074</td>
+                  <td data-row="14" data-col="4">0.269</td>
+                </tr>
+                <tr>
+                  <td data-row="15" data-col="1">R2 Adj.</td>
+                  <td data-row="15" data-col="2">0.095</td>
+                  <td data-row="15" data-col="3">0.062</td>
+                  <td data-row="15" data-col="4">0.259</td>
+                </tr>
+                <tr>
+                  <td data-row="16" data-col="1">R2 Within</td>
+                  <td data-row="16" data-col="2">0.082</td>
+                  <td data-row="16" data-col="3">0.041</td>
+                  <td data-row="16" data-col="4">0.236</td>
+                </tr>
+                <tr>
+                  <td data-row="17" data-col="1">R2 Within Adj.</td>
+                  <td data-row="17" data-col="2">0.080</td>
+                  <td data-row="17" data-col="3">0.039</td>
+                  <td data-row="17" data-col="4">0.235</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+<p>The consideration made for the previous models hold also in this case for variables shared between the two. Interestingly, the monthly price doesn’t seem to impact any key metrics. On the other hand, the number of plans have a decisive positive relationship with ratings, popularity, and success score. Free trials are also associated with increase in all metrics, but with the popularity of an app in particular. An app with a free trial attracts around 68 more reviews than their competitors. Similarly, freemium apps perfom better in every aspect: they have higher ratings and success score, but also 96 more reviews, and thus more downloads, on average.</p>
+<p>Lastly, I performed a <strong>random forest</strong> classification to understand which characteristics contribute the most to ratings. Results as shown below:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="report_files/figure-html/rf-graph-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Key Drivers of Success</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The top drivers of ratings are:</p>
+<ol type="1">
+<li>Number of features</li>
+<li>Days since last update</li>
+<li>Having multiple plans</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="managerial-implications" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Managerial Implications</h1>
+<p>The findings of this study provide several actionable insights for developers and product managers operating in the Shopify App Store ecosystem.</p>
+<p>First, <strong>pricing strategy plays a crucial role in determining app performance.</strong> The analysis shows that subscription-based apps, particularly those adopting a freemium model, tend to achieve higher popularity and success scores compared to both free and one-time payment apps. Offering a free plan or trial lowers the barrier to adoption, allowing merchants to experiment with the product before committing financially</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pricing strategy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Implementing a freemium entry point can be an effective acquisition strategy that supports long-term monetization through premium upgrades</p>
+</div>
+</div>
+<p>Second, continuous <strong>product development is essential for maintaining high ratings and engagement</strong>. Apps that are updated more frequently signal reliability, responsiveness, and ongoing innovation to users.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>For developers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Frequently update software is a strategic tool for maintining user satisfaction and marketplace visibility</p>
+</div>
+</div>
+<p>Third, <strong>feature richness</strong> significantly contributes to app success. Apps offering a larger number of functionalities tend to perform better across all key metrics. This suggests that merchants value comprehensive solutions that solve multiple problems within a single application.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>For developers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Investing in the expansion of core features or integrating complementary functionalities from competitors may increase perceived value and improve adoption rates.</p>
+</div>
+</div>
+<p>Fourth, <strong>offering multiple pricing plans appears to be beneficial</strong>. Apps with more than one pricing tier show higher ratings and popularity levels. Tiered pricing structures allow developers to serve heterogeneous customer segments, ranging from small merchants with limited needs to larger businesses requiring advanced capabilities.</p>
+<p>Overall, successful apps in the Shopify ecosystem appear to combine <strong>accessible entry pricing, continuous improvement, feature-rich design, and flexible pricing structures</strong>.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Caution: Response Rate
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Developers tend to respond primarily to negative reviews rather than positive ones. Therefore, response rate should not be interpreted as a direct indicator of customer support quality without considering the context of the interactions</p>
+</div>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Conclusion</h1>
+<p>This study investigates the key factors driving success in the Shopify App Store by combining marketplace analysis, pricing strategy evaluation, and econometric modeling. Using a dataset of more than 11,000 applications, the research explores how pricing structures, developer behavior, feature availability, and competitive conditions influence ratings, popularity, and an overall success score.</p>
+<p>The empirical results highlight several consistent patterns. Subscription-based apps outperform free and one-time payment apps across the main success metrics, with freemium models demonstrating a particularly strong advantage. Product-related characteristics also play an important role: apps with more features, multiple pricing plans, and frequent software updates tend to achieve higher ratings and attract more users.</p>
+<p>In contrast, the effect of developer response behavior appears ambiguous, likely due to the nature of review interactions in the dataset. Similarly, the role of market competition remains difficult to isolate due to the synthetic construction of macro-categories used to measure competitive intensity.</p>
+<p>Despite these limitations, the analysis provides a clearer understanding of how product design, pricing strategies, and development practices interact to influence app performance in digital marketplaces. For developers entering the Shopify ecosystem, the results suggest that long-term success depends not only on the initial product idea but also on sustained product improvement, thoughtful pricing design, and the ability to deliver comprehensive functionality to merchants.</p>
+<p>Future research could extend this work by incorporating download data, revenue estimates, or longitudinal observations to better capture growth dynamics and causal relationships over time. Nevertheless, the findings presented here offer a practical framework for understanding success factors in SaaS marketplaces and contribute to the broader study of platform-based digital ecosystems.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,22 @@
+# Dataset
+*.csv
+*.zip
+*.json
+data/
+data/processed/
+data/raw/
+report_files/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
