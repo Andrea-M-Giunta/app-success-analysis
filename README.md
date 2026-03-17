@@ -153,7 +153,7 @@ The original [Shopify App Store](https://www.kaggle.com/datasets/usernam3/shopif
 
 ## Report
 
-The final report can be find [here](report.html).
+The final report can be find [here](https://andrea-m-giunta.github.io/app-success-analysis/report.html).
 
 ## Gallery
 
