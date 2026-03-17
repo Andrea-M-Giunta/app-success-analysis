@@ -5,7 +5,6 @@
 data/
 data/processed/
 data/raw/
-report_files/
 
 # Python
 __pycache__/
